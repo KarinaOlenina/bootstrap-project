@@ -97,6 +97,7 @@ header, footer {
 .about, .plan {
 
 }
+
 .line {
   width: 100px;
   height: 2px;
@@ -104,20 +105,20 @@ header, footer {
   margin: 15px auto 30px;
 }
 
-  .itd_circle {
-    margin: 0 auto 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.itd_circle {
+  margin: 0 auto 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    //Иконки//
-    .icon-circle {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      border: 1.5px solid var(--color2);
-    }
+  //Иконки//
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1.5px solid var(--color2);
   }
+}
 
 
 //Наш сервис//
@@ -156,7 +157,7 @@ header, footer {
 }
 
 .td_img {
-max-width: 260px;
+  max-width: 260px;
 }
 
 //Отзывы//
@@ -173,11 +174,13 @@ max-width: 260px;
 .buy {
   background-color: #f2f5ef;
 }
+
 .btn__buy {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .btn-primary {
   background-color: var(--color2);
   border-color: var(--color1);

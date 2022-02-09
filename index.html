@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Bootstrap-page</title>
     <link href="scss/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="scss/css/style.css">
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="scss/css/style.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -16,10 +16,10 @@
                 <h1 class="text-center text-white">
                     Some page title
                 </h1>
-                <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="itd_play" data-bs-target="#exampleModal" data-bs-toggle="modal">
                     <div class="itd_triangle"></div>
                 </div>
-                <a href="#footer" class="btn btn-itd btn-lg text-uppercase">buy</a>
+                <a class="btn btn-itd btn-lg text-uppercase" href="#footer">buy</a>
             </div>
         </div>
     </div>
@@ -122,7 +122,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <a href="#footer" class="btn btn-itd btn-lg text-uppercase">buy</a>
+                <a class="btn btn-itd btn-lg text-uppercase" href="#footer">buy</a>
             </div>
         </div>
     </div>
@@ -142,13 +142,14 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading1">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            <button aria-controls="collapse1" aria-expanded="true" class="accordion-button"
+                                    data-bs-target="#collapse1" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
-                             data-bs-parent="#accordion1">
+                        <div aria-labelledby="heading1" class="accordion-collapse collapse show"
+                             data-bs-parent="#accordion1"
+                             id="collapse1">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -160,13 +161,13 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading2">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <button aria-controls="collapse2" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse2" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
-                             data-bs-parent="#accordion1">
+                        <div aria-labelledby="heading2" class="accordion-collapse collapse" data-bs-parent="#accordion1"
+                             id="collapse2">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -178,13 +179,13 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading3">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <button aria-controls="collapse3" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse3" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
-                             data-bs-parent="#accordion1">
+                        <div aria-labelledby="heading3" class="accordion-collapse collapse" data-bs-parent="#accordion1"
+                             id="collapse3">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -195,13 +196,13 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading4">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
-                             data-bs-parent="#accordion1">
+                        <div aria-labelledby="heading4" class="accordion-collapse collapse" data-bs-parent="#accordion1"
+                             id="collapse4">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -212,13 +213,13 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading5">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            <button aria-controls="collapse5" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse5" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
-                             data-bs-parent="#accordion1">
+                        <div aria-labelledby="heading5" class="accordion-collapse collapse" data-bs-parent="#accordion1"
+                             id="collapse5">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -229,13 +230,13 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading6">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                            <button aria-controls="collapse6" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse6" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
-                             data-bs-parent="#accordion1">
+                        <div aria-labelledby="heading6" class="accordion-collapse collapse" data-bs-parent="#accordion1"
+                             id="collapse6">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -253,13 +254,14 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading7">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                            <button aria-controls="collapse7" aria-expanded="true" class="accordion-button"
+                                    data-bs-target="#collapse7" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse7" class="accordion-collapse collapse show" aria-labelledby="heading7"
-                             data-bs-parent="#accordion2">
+                        <div aria-labelledby="heading7" class="accordion-collapse collapse show"
+                             data-bs-parent="#accordion2"
+                             id="collapse7">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -270,13 +272,13 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading8">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                            <button aria-controls="collapse8" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse8" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
-                             data-bs-parent="#accordion2">
+                        <div aria-labelledby="heading8" class="accordion-collapse collapse" data-bs-parent="#accordion2"
+                             id="collapse8">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -287,13 +289,13 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading9">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                            <button aria-controls="collapse9" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse9" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
-                             data-bs-parent="#accordion2">
+                        <div aria-labelledby="heading9" class="accordion-collapse collapse" data-bs-parent="#accordion2"
+                             id="collapse9">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -304,13 +306,14 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading10">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse8">
+                            <button aria-controls="collapse8" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse10" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
-                             data-bs-parent="#accordion2">
+                        <div aria-labelledby="heading10" class="accordion-collapse collapse"
+                             data-bs-parent="#accordion2"
+                             id="collapse10">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -321,13 +324,14 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading11">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                            <button aria-controls="collapse11" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse11" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
-                             data-bs-parent="#accordion2">
+                        <div aria-labelledby="heading11" class="accordion-collapse collapse"
+                             data-bs-parent="#accordion2"
+                             id="collapse11">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -338,13 +342,14 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading12">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse8">
+                            <button aria-controls="collapse8" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse12" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
-                             data-bs-parent="#accordion2">
+                        <div aria-labelledby="heading12" class="accordion-collapse collapse"
+                             data-bs-parent="#accordion2"
+                             id="collapse12">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -362,13 +367,14 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading13">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse13" aria-expanded="true" aria-controls="collapse13">
+                            <button aria-controls="collapse13" aria-expanded="true" class="accordion-button"
+                                    data-bs-target="#collapse13" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse13" class="accordion-collapse collapse show" aria-labelledby="heading13"
-                             data-bs-parent="#accordion3">
+                        <div aria-labelledby="heading13" class="accordion-collapse collapse show"
+                             data-bs-parent="#accordion3"
+                             id="collapse13">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -379,13 +385,14 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading14">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                            <button aria-controls="collapse14" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse14" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14"
-                             data-bs-parent="#accordion3">
+                        <div aria-labelledby="heading14" class="accordion-collapse collapse"
+                             data-bs-parent="#accordion3"
+                             id="collapse14">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -396,13 +403,14 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading15">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                            <button aria-controls="collapse15" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse15" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15"
-                             data-bs-parent="#accordion3">
+                        <div aria-labelledby="heading15" class="accordion-collapse collapse"
+                             data-bs-parent="#accordion3"
+                             id="collapse15">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -413,13 +421,14 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading16">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                            <button aria-controls="collapse16" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse16" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16"
-                             data-bs-parent="#accordion3">
+                        <div aria-labelledby="heading16" class="accordion-collapse collapse"
+                             data-bs-parent="#accordion3"
+                             id="collapse16">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -430,13 +439,14 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading17">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                            <button aria-controls="collapse17" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse17" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17"
-                             data-bs-parent="#accordion3">
+                        <div aria-labelledby="heading17" class="accordion-collapse collapse"
+                             data-bs-parent="#accordion3"
+                             id="collapse17">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -447,13 +457,14 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading18">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                            <button aria-controls="collapse18" aria-expanded="false" class="accordion-button collapsed"
+                                    data-bs-target="#collapse18" data-bs-toggle="collapse" type="button">
                                 Some subtitle
                             </button>
                         </h2>
-                        <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18"
-                             data-bs-parent="#accordion3">
+                        <div aria-labelledby="heading18" class="accordion-collapse collapse"
+                             data-bs-parent="#accordion3"
+                             id="collapse18">
                             <div class="accordion-body">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -498,7 +509,7 @@
                     nisi vitae magna bibendum egestas. </p>
             </div>
             <div class="col-xl-3 col-lg-12 text-center ">
-                <img src="img/company-title.jpg" alt="company" class="img-fluid itd_img">
+                <img alt="company" class="img-fluid itd_img" src="img/company-title.jpg">
             </div>
         </div>
     </div>
@@ -514,7 +525,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-4 col-mb-6 col-sm-12">
-                <img src="img/avatar.png" alt="user" class="rounded mx-auto d-block">
+                <img alt="user" class="rounded mx-auto d-block" src="img/avatar.png">
                 <h4 class="text-center mb-3 mt-3">Mary</h4>
                 <p>
                     Vivamus pellentesque mattis venenatis. Nullam sagittis congue odio, ac iaculis lectus. Suspendisse
@@ -525,7 +536,7 @@
                 <div class="line"></div>
             </div>
             <div class="col-lg-4 col-mb-6 col-sm-12">
-                <img src="img/avatar.png" alt="user" class="rounded mx-auto d-block">
+                <img alt="user" class="rounded mx-auto d-block" src="img/avatar.png">
                 <h4 class="text-center mb-3 mt-3">Mary</h4>
                 <p>
                     Vivamus pellentesque mattis venenatis. Nullam sagittis congue odio, ac iaculis lectus. Suspendisse
@@ -536,7 +547,7 @@
                 <div class="line"></div>
             </div>
             <div class="col-lg-4 col-mb-6 col-sm-12">
-                <img src="img/avatar.png" alt="user" class="rounded mx-auto d-block">
+                <img alt="user" class="rounded mx-auto d-block" src="img/avatar.png">
                 <h4 class="text-center mb-3 mt-3">Mary</h4>
                 <p>
                     Vivamus pellentesque mattis venenatis. Nullam sagittis congue odio, ac iaculis lectus. Suspendisse
@@ -567,7 +578,7 @@
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                        <a href="#" class="btn btn-primary btn__buy">BUY</a>
+                        <a class="btn btn-primary btn__buy" href="#">BUY</a>
                     </div>
                 </div>
             </div>
@@ -579,7 +590,7 @@
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                        <a href="#" class="btn btn-primary btn__buy">BUY</a>
+                        <a class="btn btn-primary btn__buy" href="#">BUY</a>
                     </div>
                 </div>
             </div>
@@ -591,7 +602,7 @@
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                        <a href="#" class="btn btn-primary btn__buy">BUY</a>
+                        <a class="btn btn-primary btn__buy" href="#">BUY</a>
                     </div>
                 </div>
             </div>
@@ -600,37 +611,37 @@
 </section>
 
 <footer id="footer">
-<div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
-            <a href="#" target="_blank" class="btn btn-outline-light btn__icons">
-                <div class="icon-circle"></div>
-            </a>
-            <a href="#" target="_blank" class="btn btn-outline-light btn__icons">
-                <div class="icon-circle"></div>
-            </a>
-            <a href="#" target="_blank" class="btn btn-outline-light btn__icons">
-                <div class="icon-circle"></div>
-            </a>
-            <a href="#" target="_blank" class="btn btn-outline-light btn__icons">
-                <div class="icon-circle"></div>
-            </a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <a class="btn btn-outline-light btn__icons" href="#" target="_blank">
+                    <div class="icon-circle"></div>
+                </a>
+                <a class="btn btn-outline-light btn__icons" href="#" target="_blank">
+                    <div class="icon-circle"></div>
+                </a>
+                <a class="btn btn-outline-light btn__icons" href="#" target="_blank">
+                    <div class="icon-circle"></div>
+                </a>
+                <a class="btn btn-outline-light btn__icons" href="#" target="_blank">
+                    <div class="icon-circle"></div>
+                </a>
+            </div>
         </div>
     </div>
-</div>
 </footer>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Some interesting video</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
             </div>
             <div class="modal-body">
                 <div class='embed-container'>
-                    <iframe src='https://www.youtube.com/embed//WN3mVlhr80g' allowfullscreen></iframe>
+                    <iframe allowfullscreen src='https://www.youtube.com/embed//WN3mVlhr80g'></iframe>
                 </div>
             </div>
         </div>
